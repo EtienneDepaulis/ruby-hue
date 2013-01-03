@@ -7,3 +7,7 @@ gem 'color'
 
 gem 'upnp', path: './upnp'
 
+gem 'cucumber'
+gem 'aruba'
+gem 'thor'
+
