@@ -195,6 +195,7 @@ module Hue
       opts = opts.merge(bri: (hsl.l * 255).to_i,
                         sat: (hsl.s * 255).to_i,
                         hue: (hsl.h * 360 * 182).to_i)
+      on(light)
       write(light, opts)
     end
 
